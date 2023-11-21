@@ -1,0 +1,167 @@
+<!DOCTYPE html> <html lang="pt-br"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./Projeto-smart-fit/css/style.css"> 
+    <title>Smart Fit</title> 
+</head> 
+<body> 
+    <nav class="navbar"> 
+        <div class="navbar-logo"> 
+            <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/logo.svg" alt="Logo"> 
+        </div> 
+    </nav>  
+
+    <div class="body">
+        <h1 id="reabertura">REABERTURA <br>SMART FIT</h1>
+        <br>
+        <div class="linha-preta"></div>
+        <br>
+        <p>O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui se a sua unidade está aberta e as medidas de segurança que estamos seguindo.</p>
+        <br><br>
+        <div class="borda">
+            <div class="horario">
+                <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/icon-hour.png"> 
+                <p>Horário</p>
+                <h2 id="perido">Qual período quer treinar?</h2>
+                <hr>
+                <form> 
+                    <input type="radio" value="manha" name="horario" id="manha">  
+                    <label for="manha">Manhã</label> 
+                    <p id="horario_manha">06:00 às 12:00 </p>
+                    <hr>
+                    <input type="radio" value="tarde" name="horario" id="tarde">  
+                    <label for="tarde">Tarde</label> 
+                    <p id="horario_tarde">12:01 às 18:00</p>
+                    <hr>
+                    <input type="radio" value="noite" name="horario" id="noite">  
+                    <label for="noite">Noite</label> 
+                    <hr>
+                    <p id="horario_noite">18:01 às 23:00 </p>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="unidade_fechadas" id="unidades_fechadas">
+                    <p id="exibir">Exibir Unidades Fechadas</p>
+                    <p id="resultados">Resultados encontrados: <b>0</b></p>
+                    <div class="botoes">
+                        <input type="submit" name="encontrar" id="encontrar" value="Encontrar Unidade" style="background-color:#FFB612 ;">
+                        <input type="reset" name="limpar" id="limpar" value="Limpar">
+                    </div>
+                </form>
+            </div>
+    </div>
+    <br><br>
+    <div class="especificacoes">
+
+        <div class="mask">
+            <ul>
+                <li>Máscara</li>
+            </ul>
+            <div class="obrigatorio_mask">
+                <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/required-mask.png">
+                <p>Obrigatório</p>
+            </div>
+            <div class="recomendado_mask">
+                <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/recommended-mask.png">
+                <p>Recomendado</p>
+            </div>
+        </div>
+        <div class="toalha">
+            <ul>
+                <li>Toalha</li>
+            </ul>
+            <div class="obrigatorio_toalha">
+                <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/required-towel.png">
+                <p>Obrigatório</p>
+            </div>
+            <div class="recomendado_toalha">
+                <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/recommended-towel.png">
+                <p>Recomendado</p>
+            </div>
+            <div class="bebedouro">
+                <ul>
+                    <li>Bebedouro</li>
+                </ul>
+                <div class="bebedouro_parcial">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/partial-fountain.png">
+                    <p>Parcial</p>
+                    
+                </div>
+                <div class="bebedouro_proibido">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/forbidden-fountain.png">
+                    <p>Proibido</p>
+                </div>
+                <div class="vestiario">
+                    <ul>
+                        <li>Vestiário</li>
+                    </ul>
+                    <div class="vestiario_liberado">
+                        <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/required-lockerroom.png">
+                        <p>Liberado</p>
+                    </div>
+                    <div class="vestiario_parcial">
+                        <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/partial-lockerroom.png">
+                        <p>Parcial</p>
+                    </div>
+                    <div class="vestiario_fechado">
+                        <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/forbidden-lockerroom.png">
+                        <p>Fechado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="borda_lugar">
+        <div class="locais_disponiveis">
+            <div class="locais_informacoes">
+             
+                <p class="lugar_aberto">Aberto</p>   
+                <h3>Vicente Linhares</h3><br>
+                <p>Rua Tibúrcio Cavalcante,1885<br>
+                   Meireles Fortaleza, CE
+                </p>
+                <div class="listaDeImagemsEquipamentosEmLocaisDisponiveis">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/required-mask.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/required-towel.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/partial-fountain.png"class="imagemsEquipamentosEmLocaisDisponiveis">
+                    <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/forbidden-lockerroom.png"  class="imagemsEquipamentosEmLocaisDisponiveis">
+                </div>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <h3>Seg. à Sex. Sáb.</h3>
+                <p>06h às 22h 09h às 18</p>
+                <br>
+                <h3>Dom.</h3>
+                <p>Fechada</p>
+            </div>
+        
+            <div class="locais_informacoes">
+                <p class="lugar_fechado">Fechado</p>
+                <h3>Vila Carrão</h3>
+                <br>
+                <p>Av. Ghilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+            </div>
+        
+            <div class="locais_informacoes">
+                <p class="lugar_fechado">Fechado</p>
+               
+                <h3>Vila Carrão</h3>
+                <br>
+                <p>Av. Ghilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+            </div>
+        
+        </div>
+        
+        <br><br><br><br>
+        
+        
+    </div>
+    <footer>
+        <img src="./Projeto-smart-fit/Quem-apagar-é-fei/_material/images/logo.svg" class="logoFooter">
+        <p class="creditosDoFooter">Todos os direitos reservados - 2020</p>
+    </footer>
+</body> 
+</html>

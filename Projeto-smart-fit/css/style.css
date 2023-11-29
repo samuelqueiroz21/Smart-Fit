@@ -5,19 +5,19 @@
 }
 @font-face {
     font-family: gotham-black;
-    src: url(../Quem-apagar-é-fei/_material/fonts/gotham-black.woff2)
+    src: url(../fonts/gotham-black.woff2)
 }
 @font-face {
     font-family: gotham-bold;
-    src: url(../Quem-apagar-é-fei/_material/fonts/gotham-bold.woff2)
+    src: url(../fonts/gotham-bold.woff2)
 }
 @font-face {
     font-family: gotham-book;
-    src: url(../Quem-apagar-é-fei/_material/fonts/gotham-book.woff2)
+    src: url(../fonts/gotham-book.woff2)
 }
 @font-face {
     font-family: gotham-light;
-    src: url(../Quem-apagar-é-fei/_material/fonts/gotham-light.woff2)
+    src: url(../fonts/gotham-light.woff2)
 }
 
 body {

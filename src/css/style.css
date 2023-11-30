@@ -178,6 +178,9 @@ p {
 .obrigatorio_mask{
     margin-left: 20px;
 }
+.recomendado_mask {
+    margin-left: 10px;
+}
 .toalha{
      margin-left: 16em;
      margin-top: -5.5em;

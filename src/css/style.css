@@ -240,21 +240,166 @@ p {
     justify-content: center;
     overflow: hidden;
 }
-.locais_informacoes{
-    padding: 10px;
-    width: 268px;
-    height: 330px;
-    background-color: rgb(231, 231, 231);
-    border: #808080 solid 1px; 
-    border-radius: 10px;
-    font-size: 10px;
-}
-.locais_informacoes p{
-    font-size: 20px;
-}
-.locais_informacoes h3 {
-    font-size: 25px;
-}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: -400px;
+    width: 1897px;
+  }
+  
+  .card-aberto{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    width: 400px;
+    margin: 0px -300px;
+    border: 3px solid #f0f0f0;
+  }
+  
+  .card-1-aberto{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #2FC022;
+  }
+  
+  .card-1-nome{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #444444;
+  }
+  
+  .card-1-rua{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: gray;
+  }
+  
+  .card-1-linha{
+    margin-top: 15px;
+    height: 0.5px;
+    color: gray;
+  }
+  
+  .card-1-mascara-obrigatorio{
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .card-1-toalha-obrigatorio{
+    width: 90px;
+  }
+  
+  .card-1-garrafa-parcial{
+    width: 90px;
+    margin-left: -10px;
+  }
+  
+  .card-1-cabide-fechado{
+    width: 90px;
+    margin-left: -10px;
+  }
+  
+  .card-1-semana{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #454545;
+  }
+  
+  .card-1-sabado{
+    margin-left: 205px;
+    margin-top: -33px;
+    font-size: 30px;
+    color: #454545;
+  }
+  
+  .card-1-6h{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: #808080;
+  }
+  
+  .card-1-09h{
+    margin-left: 210px;
+    margin-top: -27px;
+    font-size: 23px;
+    color: #808080;
+  }
+  
+  .card-1-domingo{
+    margin-left: 20px;
+    color: #454545;
+    font-size: 30px;
+  }
+  
+  .card-1-domingo-fechado{
+    margin-left: 20px;
+    color: #808080;
+    margin-top: 15px;
+  }
+  
+  .card-fechado{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-bottom: 424px;
+    padding-top: 10px;
+    width: 400px;
+    margin: 0px -300px;
+    border: 3px solid #f0f0f0;
+  }
+  
+  .card-2-fechado{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #dc0a17;
+  }
+  
+  .card-2-nome{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #444444;
+    margin-top: 10px;
+  }
+  
+  .card-2-rua{
+    margin-left: 20px;
+    color: gray;
+    margin-top: 15px;
+  }
+  
+  .card-fechado-3{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: 3px solid #f0f0f0;
+    padding-bottom: 424px;
+    width: 400px;
+    margin: 0px -300px;
+    padding-top: 10px;
+  }
+  
+  .card-3-fechado{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #dc0a17;
+  }
+  
+  .card-3-nome{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #444444;
+    margin-top: 10px;
+  }
+  
+  .card-3-rua{
+    margin-left: 20px;
+    color: gray;
+    margin-top: 13px;
+  }
 .lugar_aberto{
     color: #2FC022;
     font-weight:1000;

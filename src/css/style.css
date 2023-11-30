@@ -231,31 +231,23 @@ p {
    
 }
 
-.locais_disponiveis{
- 
-    height: 363px;
-    width: 100%px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    overflow: hidden;
-}
+
 .cards{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 40px;
-    margin-left: -400px;
-    width: 1897px;
+    width: 997px;
+    margin-left: 110px;
+    gap: 20px;
   }
   
-  .card-aberto{
+  .card-vicente{
     background-color: #f5f5f5;
     border-radius: 5px;
     padding-bottom: 40px;
     padding-top: 10px;
     width: 400px;
-    margin: 0px -300px;
+    margin: 2px;
+    margin-left: -100px;
     border: 3px solid #f0f0f0;
   }
   
@@ -343,13 +335,12 @@ p {
     margin-top: 15px;
   }
   
-  .card-fechado{
+  .card-guilherme{
     background-color: #f5f5f5;
     border-radius: 5px;
     padding-bottom: 424px;
     padding-top: 10px;
     width: 400px;
-    margin: 0px -300px;
     border: 3px solid #f0f0f0;
   }
   
@@ -378,7 +369,7 @@ p {
     border: 3px solid #f0f0f0;
     padding-bottom: 424px;
     width: 400px;
-    margin: 0px -300px;
+    margin: 2px;
     padding-top: 10px;
   }
   

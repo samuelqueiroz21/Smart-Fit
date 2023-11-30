@@ -146,7 +146,7 @@ p {
     margin-top: 50px;
     margin: 10px;
     padding-top: 50px;
-    background-color: rgb(231, 231, 231);
+    background-color: #f5f5f5;
 }
 .especificacoes img {
     width: 80px;
@@ -240,7 +240,9 @@ p {
     margin-left: 110px;
     gap: 20px;
   }
-  
+.cards p {
+    font-size: 22px;
+}
   .card-vicente{
     background-color: #f5f5f5;
     border-radius: 5px;
@@ -252,20 +254,20 @@ p {
     border: 3px solid #f0f0f0;
   }
   
-  .card-1-aberto{
+  .card-vicente-aberto{
     margin-left: 20px;
     margin-top: 5px;
     color: #2FC022;
   }
   
-  .card-1-nome{
+  .card-vicente-nome{
     margin-left: 20px;
     margin-top: 10px;
     font-size: 30px;
     color: #444444;
   }
   
-  .card-1-rua{
+  .card-vicente-rua{
     margin-left: 20px;
     margin-top: 20px;
     color: gray;
@@ -277,61 +279,61 @@ p {
     width: 320px;
     color: gray;
   }
-  
-  .card-1-mascara-obrigatorio{
+  .card-vicente-mascara-obrigatorio{
     width: 80px;
     margin-left: 10px;
     margin-top: 20px;
   }
   
-  .card-1-toalha-obrigatorio{
+  .card-vicente-toalha-obrigatorio{
     width: 80px;
   }
   
-  .card-1-garrafa-parcial{
-    width: 80px;
-    margin-left: -10px;
-  }
-  
-  .card-1-cabide-fechado{
+  .card-vicente-garrafa-parcial{
     width: 80px;
     margin-left: -10px;
   }
   
-  .card-1-semana{
+  .card-vicente-cabide-fechado{
+    width: 80px;
+    margin-left: -10px;
+  }
+  
+  .card-vicente-semana{
     margin-left: 20px;
+    margin-top: 30px;
     font-size: 30px;
     color: #454545;
   }
   
-  .card-1-sabado{
+  .card-vicente-sabado{
     margin-left: 230px;
-    margin-top: -33px;
+    margin-top: -25px;
     font-size: 30px;
     color: #454545;
   }
   
-  .card-1-6h{
+  .card-vicente-6h{
     margin-left: 20px;
     margin-top: 10px;
     font-size: 23px;
     color: #808080;
   }
   
-  .card-1-09h{
+  .card-vicente-09h{
     margin-left: 210px;
     margin-top: -27px;
     font-size: 23px;
     color: #808080;
   }
   
-  .card-1-domingo{
+  .card-vicente-domingo{
     margin-left: 20px;
     color: #454545;
     font-size: 30px;
   }
   
-  .card-1-domingo-fechado{
+  .card-vicente-domingo-fechado{
     margin-left: 20px;
     color: #808080;
     margin-top: 15px;
@@ -346,26 +348,26 @@ p {
     border: 3px solid #f0f0f0;
   }
   
-  .card-2-fechado{
+  .card-guilherme-fechado{
     margin-left: 20px;
     margin-top: 5px;
     color: #dc0a17;
   }
   
-  .card-2-nome{
+  .card-guilherme-nome{
     margin-left: 20px;
     font-size: 30px;
     color: #444444;
     margin-top: 10px;
   }
   
-  .card-2-rua{
+  .card-guilherme-rua{
     margin-left: 20px;
     color: gray;
     margin-top: 15px;
   }
   
-  .card-fechado-3{
+  .card-guilherme-2{
     background-color: #f5f5f5;
     border-radius: 5px;
     border: 3px solid #f0f0f0;
@@ -375,20 +377,20 @@ p {
     padding-top: 10px;
   }
   
-  .card-3-fechado{
+  .card-guilherme-2-fechado{
     margin-left: 20px;
     margin-top: 5px;
     color: #dc0a17;
   }
   
-  .card-3-nome{
+  .card-guilherme-2-nome{
     margin-left: 20px;
     font-size: 30px;
     color: #444444;
     margin-top: 10px;
   }
   
-  .card-3-rua{
+  .card-guilherme-2-rua{
     margin-left: 20px;
     color: gray;
     margin-top: 13px;

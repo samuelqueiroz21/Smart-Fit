@@ -236,6 +236,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     width: 997px;
+    height: 500px;
     margin-left: 110px;
     gap: 20px;
   }
@@ -270,29 +271,30 @@ p {
     color: gray;
   }
   
-  .card-1-linha{
+ hr{
     margin-top: 15px;
-    height: 0.5px;
+    margin-left: 10px;
+    width: 320px;
     color: gray;
   }
   
   .card-1-mascara-obrigatorio{
-    width: 90px;
+    width: 80px;
     margin-left: 10px;
     margin-top: 20px;
   }
   
   .card-1-toalha-obrigatorio{
-    width: 90px;
+    width: 80px;
   }
   
   .card-1-garrafa-parcial{
-    width: 90px;
+    width: 80px;
     margin-left: -10px;
   }
   
   .card-1-cabide-fechado{
-    width: 90px;
+    width: 80px;
     margin-left: -10px;
   }
   
@@ -303,7 +305,7 @@ p {
   }
   
   .card-1-sabado{
-    margin-left: 205px;
+    margin-left: 230px;
     margin-top: -33px;
     font-size: 30px;
     color: #454545;
